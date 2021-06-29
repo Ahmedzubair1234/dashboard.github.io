@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 :root{
-	--main-color: #36b6e0;
+	--main-color: #3b3b3b;
 	--color-dark: #1D2231;
 	--text-grey: #8390A2;
 }
@@ -62,7 +62,12 @@
 	padding-right: 1rem;
 	font-size: 1.5rem;
 }
-
+.lab{
+	color: red;
+}
+.o{
+	color: red;
+}
 .main-content{
 	transition: margin-left 245ms;
 	margin-left: 245px;
@@ -109,11 +114,12 @@ header {
 .user-wrapper{
 	display: flex;
 	align-items: center;
+
 }
 
 .user-wrapper img{
 	border-radius: 50%;
-	margin-right: .5 rem;
+	margin-right: 1rem;
 }
 .user-wrapper small{
 	display: inline-block;
