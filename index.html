@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Admin Dashboard</title>
-	<meta name="viewport" content="width=deice-width, initial-scale=1.0">
+	<meta name="viewport" content="width=deice-width, initial-scale=1.0 , maximum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 	<!-- Icon Files Link -->
@@ -10,9 +10,10 @@
 </head>
 <body>	
 	<!-- Menu with Sidebar -->
+	<input type="checkbox" id="nav-toogle">
 	<div class="sidebar">
 		<div class="sidebar-brand">
-			<h1><span class="lab la-accusoft"></span></h1>
+			<h1><span class="lab la-accusoft"></span><span>Fitness</span></h1>
 		</div>
 		<!-- Menu here -->
 		<div class="sidebar-menu">
@@ -52,7 +53,7 @@
 	<div class="main-content">
 		<header>
 				<h2>
-					<label>
+					<label for="nav-toogle">
 						<span class="las la-bars"></span>
 					</label>
 					Dashboard
@@ -127,7 +128,8 @@
 							<button>See all <span class="las la-arrow-right"></span></button>
 						</div>
 						<div class="card-body">
-							<table width="100%">
+							<div class="table-responsive">
+								<table width="100%">
 								<thead>
 									<tr>
 										<td>Project Title</td>
@@ -180,6 +182,7 @@
 									</tr>
 								</tbody>
 							</table>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -193,32 +196,73 @@
 						</div>
 						<div class="card-body">
 							<div class="customer">
-								<img src="assets/img/avater.png" width="40px" height="40px">
+								<div class="info">
+								<img src="assets/img/avatar2.png" width="40px" height="40px">
 								<div>
 									<h4>Shourov Fitness</h4>
 									<small>CEO Excerpt</small>
 								</div>
-							</div>
-							<div>
+								</div>
+							<div class="contact">
 								<span class="las la-user-circle"></span>
 								<span class="las la-comment"></span>
 								<span class="las la-phone"></span>
 							</div>
 						</div>
+						</div>
+
 						<div class="card-body">
-						<div class="customer">
-								<img src="assets/img/avater.png" width="40px" height="40px">
-								<div>
-									<h4>Shourov Fitness</h4>
-									<small>CEO Excerpt</small>
+							<div class="customer">
+								<div class="info">
+										<img src="assets/img/avatar2.png" width="40px" height="40px">
+									<div>
+										<h4>Shourov Fitness</h4>
+										<small>CEO Excerpt</small>
+									</div>
+								</div>
+								<div class="contact">
+									<span class="las la-user-circle"></span>
+									<span class="las la-comment"></span>
+									<span class="las la-phone"></span>
 								</div>
 							</div>
-							<div>
-								<span class="las la-user-circle"></span>
-								<span class="las la-comment"></span>
-								<span class="las la-phone"></span>
+						</div>
+
+
+						<div class="card-body">
+							<div class="customer">
+								<div class="info">
+										<img src="assets/img/avatar2.png" width="40px" height="40px">
+									<div>
+										<h4>Shourov Fitness</h4>
+										<small>CEO Excerpt</small>
+									</div>
+								</div>
+								<div class="contact">
+									<span class="las la-user-circle"></span>
+									<span class="las la-comment"></span>
+									<span class="las la-phone"></span>
+								</div>
 							</div>
 						</div>
+
+						<div class="card-body">
+							<div class="customer">
+								<div class="info">
+										<img src="assets/img/avatar2.png" width="40px" height="40px">
+									<div>
+										<h4>Shourov Fitness</h4>
+										<small>CEO Excerpt</small>
+									</div>
+								</div>
+								<div class="contact">
+									<span class="las la-user-circle"></span>
+									<span class="las la-comment"></span>
+									<span class="las la-phone"></span>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 					
 					</div>
